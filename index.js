@@ -44,6 +44,10 @@ function playSound(char){
             sound = new Audio("sounds/kick-bass.mp3")
             sound.play()
         break;
+        case "t":
+            sound = new Audio("sounds/mindu.mp3")
+            sound.play()
+        break;
         default:
         break;
     }
